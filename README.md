@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: 2024 pydot contributors
+SPDX-FileCopyrightText: 2025 pydot contributors
 
 SPDX-License-Identifier: MIT
 -->
@@ -9,7 +9,29 @@ SPDX-License-Identifier: MIT
 [![PyPI](https://img.shields.io/pypi/v/pydot.svg)](https://pypi.org/project/pydot/)
 [![Code style: ruff](https://img.shields.io/badge/code%20style-ruff-purple.svg)](https://github.com/astral-sh/ruff)
 
-# Pydot
+# Pydot - NextGen
+
+> [!IMPORTANT]
+> This is the `nextgen` brach of Pydot, and is **highly experimental**.
+>
+> The code here is not intended:
+>     * to be backwards-compatible with Pydot 1.x–4.x
+>     * to have feature parity with Pydot 1.x–4.x
+>     * to be production-quality
+>     * to always work properly
+>
+> Use this code for testing purposes only, and at your own peril.
+
+The `nextgen` branch is intended to host a ground-up reorganization of
+many of Pydot's internals, particularly how it stores information about
+GraphViz graph elements.
+
+
+## A brief rundown of the expected differences from Pydot "classic" (WIP)
+
+
+
+## Pydot
 
 `pydot` is a Python interface to Graphviz and its DOT language. You can use `pydot` to create, read, edit, and visualize graphs.
 
